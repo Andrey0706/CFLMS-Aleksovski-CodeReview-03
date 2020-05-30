@@ -1,0 +1,98 @@
+#container {
+  width: 95%;
+  margin: auto; }
+
+h1 {
+  text-align: center;
+  font-size: 4vw;
+  color: #8E1616; }
+
+#container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.circle {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  overflow: hidden; }
+
+#leftArrow {
+  width: 7vw;
+  height: 100%; }
+
+#rightArrow {
+  width: 7vw;
+  height: 100%; }
+
+#container img {
+  opacity: 0.2;
+  width: 100%;
+  height: 100%; }
+
+#row1 {
+  width: 50%;
+  margin: auto;
+  margin-top: 5vw; }
+
+#row1 .circle {
+  width: 25vw;
+  height: 20vw;
+  border-radius: 50%; }
+
+#nameAndRole {
+  margin-top: 5vw;
+  width: 25vw;
+  height: 10vw;
+  text-align: center; }
+
+#nameAndRole p {
+  margin: 0; }
+
+#name {
+  color: #8E1616;
+  font-size: 3vw;
+  font-weight: bold; }
+
+#role {
+  color: #8E1616;
+  font-size: 2.5vw;
+  font-style: italic;
+  margin-top: 0.5vw; }
+
+#email {
+  color: gray;
+  font-size: 1.5vw;
+  font-style: italic;
+  margin-top: 0.5vw; }
+
+#row2 {
+  width: 65%;
+  margin: auto;
+  margin-top: -5vw; }
+
+#row3 {
+  width: 100%;
+  margin: auto;
+  margin-top: -3vw; }
+
+#description {
+  width: 50vw;
+  height: 10vw; }
+
+#descriptionText {
+  font-size: 1.8vw; }
+
+#row4 {
+  width: 65%;
+  margin: auto;
+  margin-top: -3vw; }
+
+#row5 {
+  width: 20%;
+  margin: auto;
+  margin-top: -5vw; }
+
+/*# sourceMappingURL=teamStyle.css.map */

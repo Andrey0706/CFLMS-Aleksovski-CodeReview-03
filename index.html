@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Code Review 3</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div id="headerTop">
+                <div id="leftPart">
+                    <img id="logoTopLeft" src="img/logo.png" alt="" />
+                </div>
+                <div id="rightPart">
+                    <a href="https://www.codefactory.wien"><img id="bannerTopRight" src="img/banner.png" alt="Banner1" /></a>
+                </div>
+            </div>
+
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" title="">Home</a></li>
+                        <li><a href="team.html" title="">Team</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div id="mainContent">
+            <img src="img/traffic.jpg" alt="Traffic img">
+            <p id="headline">Car insurance</p>
+            <div id="appear">
+                <div id="bait">
+                    <p>Great coverage begins with a custom quote</p>
+                </div>
+                <div id="inputRows">
+                    <div id="rowUp" class="row">
+                        <div>
+                            <p>Your name:</p>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div>
+                            <p>Age:</p>
+                            <input type="number" id="age" min="18" max="110" required>
+                        </div>
+                    </div>
+
+                    <div id="rowDown" class="row">
+                        <div>
+                            <p>Country:</p>
+                            <select name="" id="country" required>
+                                <option value="Austria">Austria</option>
+                                <option value="Hungary">Hungary</option>
+                                <option value="Greece">Greece</option>
+                            </select>
+                        </div>
+                        <div>
+                            <p>Horsepower of your car:</p>
+                            <input type="text" id="horsePowers" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="calculateArea">
+                    <input id="calculate" type="submit" value="Calculate"></input>
+                    <p id="printText">Printed calculation goes here</p>
+                </div>
+                <div id="overlap"></div>
+                
+            </div>
+
+            <div id="bellowImage">
+                <p id="firstPbellow">Un-complicating car coverage</p>
+                <p>Understanding your coverage options shouldn't be so hard.</p>
+                <p>We'll guide you trough available coverage types,</p>
+                <p>starting with who and what is covered.</p>
+            </div>
+        </div>
+
+        <div id="packages">
+            <div id="leftPackage" class="packageBox">
+                <div class="packageWrap">
+                    <p class="packageHead">What comes standard</p>
+                    <p class="underPackageHead">The coverage you need</p>
+                    <div class="listing">
+                        <div class="thickerPlusText">
+                            <div class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </div>
+                            <div class="afterChecker"><p>Bodily Injury Liability</p></div>
+                        </div>
+                        <div class="thickerPlusText">
+                            <div class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </div>
+                            <div class="afterChecker"><p>Property Damage</p></div>
+                        </div>
+                        <div class="thickerPlusText">
+                            <div class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </div>
+                            <div class="afterChecker"><p>Medical Payments</p></div>
+                        </div>
+                       
+                    </div>
+                    <hr>
+                    <div class="benefits">
+                        <p class="benefitsHeader">Benefits</p>
+                        <p class="benefitsDescription">12-month rate guarantee | 24/7 customer<br> service | Lifetime Repair Guarantee</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="rightPackage" class="packageBox">
+                <div class="packageWrap">
+                    <p class="packageHead">Add-on protection & coverage</p>
+                    <p class="underPackageHead">For more peace of mind</p>
+                    <div class="listing">
+                        <div class="thickerPlusText">
+                            <div class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </div>
+                            <div class="afterChecker"><p>Better Car Replacement</p></div>
+                        </div>
+                        <div class="thickerPlusText">
+                            <div class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </div>
+                            <div class="afterChecker"><p>Towing & Labor</p></div>
+                        </div>
+                        <div class="thickerPlusText">
+                            <div class="checkmark">
+                                <div class="checkmark_stem"></div>
+                                <div class="checkmark_kick"></div>
+                            </div>
+                            <div class="afterChecker"><p>Rental Car Coverage</p></div>
+                        </div>
+                       
+                    </div>
+                    <hr>
+                    <div class="benefits">
+                        <p class="benefitsHeader">Earned Benefits</p>
+                        <p class="benefitsDescription">Accident Forgiveness' | New Car<br> Replacement&#8482</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div id="footerMenu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" title="">Home</a></li>
+                        <li><a href="team.html" title="">Team</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="footerLogo">
+                <img src="img/logo-inv.png" alt="" />
+            </div>
+            <div id="footerBottom">
+                <p>Aleksovski-CodeFactory 2018</p>
+            </div>
+        </footer>
+    <script src="js/script.js"></script>
+    </body>
+</html>
